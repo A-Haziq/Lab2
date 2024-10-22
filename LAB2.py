@@ -5,7 +5,7 @@ def calc_average(temp_list):
     return sum(temp_list) / len(temp_list) if len(temp_list) > 0 else 0
     
 def get_user_input():
-    x = input("Enter some numbers: ")
+    x = input("Enter some numbers(seperate with commas): ")
     y = [float(num.strip()) for num in x.split(",")]
     return y
 
